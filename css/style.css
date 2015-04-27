@@ -44,28 +44,23 @@ input{
 #template{ }
 #gameLayout{
 	   width: 620px;
-	/*
-    float:left;
-    width: 620px;
-    padding: 25px;
-    border: 1px solid navy;
-    margin: 25px;*/}
+}
 #topLayout {
   height: 30px;
   float: left;
   width: 705px;
-  border: 1px solid navy;
+  border: 1px solid;
 }
 #bottomLayout{    
   float: left;
   width: 705px;
-  border: 1px solid navy;
+  border: 1px solid;
 }
 #bottomLeft {
   float: left;
   width: 250px;
   padding: 25px;
-  border: 1px solid navy;
+  border: 1px solid;
   margin: 25px;
   width: 196px;
   display: block;
@@ -96,7 +91,7 @@ user agent stylesheetdiv {
 #bottomRight{   float: right;
   width: 250px;
   padding: 25px;
-  border: 1px solid navy;
+  border: 1px solid;
   margin: 25px;
                   
 	width: 196px;;
@@ -139,7 +134,7 @@ user agent stylesheetdiv {
   /* float: left; */
   width: 567px;
   padding: -29px;
- /* border: 8px solid navy;*/
+ 
   margin: auto;
   background-color:#303030;
   
@@ -165,7 +160,7 @@ height:227px;
 border: 3px solid #FFFFFF;
 }
 #tree{
- 
+ padding-right: 26px;
    float: right;
   height: 232px;
   width: 237px;
@@ -273,10 +268,12 @@ body {
 	float: left;	
 }
 .right {
-
+  padding-top: 2px;
 }
 .light-buttons {
-width: 27%;
+
+  padding-left: 37px;
+  width: 27%;
   padding-right: 0%;
   float: left;
 }
@@ -579,7 +576,7 @@ width: 27%;
     position: relative;
 }*/
     
-#li1
+#li01
 {
 float: left;
 border-right: 1px solid #222;
@@ -587,7 +584,7 @@ box-shadow: 1px 0 0 #444;
 position: relative;
 }
 
-#li2
+#li02
 {
 float: left;
 border-right: 1px solid #222;
@@ -595,7 +592,7 @@ box-shadow: 1px 0 0 #444;
 position: relative;
 }
 
-#li3
+#li03
 {
 float: left;
 
@@ -634,3 +631,65 @@ header #opacheader{
   margin-top: 43px;
     
 }
+
+
+#opacintro
+
+  {
+   width: 722px;
+  height: 302px;
+  background-color: rgba(255, 255, 255, 0.88);
+  position: absolute;
+  /* z-index: 1; */
+  margin: auto;
+  padding-right: -4px;
+  margin-left: 32px;
+  /* opacity: 0.1; */
+  margin-top: 49px;
+  /* border-radius: 10px; */
+  /* border: 4px solid #DDDCDC; */
+  /* box-shadow: 15px 10px 18px #888888; */
+ 
+}
+    
+#form
+{
+border-radius: 10px;
+  border: 2px solid #DDDCDC;
+  padding: 12px;
+  margin-right: 62px;
+  padding-right: 66px;
+  width: 361px;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  height: 239px;
+  /* margin: auto; */
+  /* padding-left: 222px; */
+  /* padding-top: 59px; */
+  margin-top: 66px;
+  /* margin-left: 181px; */
+  margin-left: 168px;
+  border: solid;
+  box-shadow: 15px 10px 18px #888888;
+}
+
+/*
+  border-radius: 10px;
+  border: 2px solid #DDDCDC;
+  padding: 13px;
+  margin-right: 31px;
+  padding-right: 76px;
+  width: 268px;
+  height: 200px;
+ 
+  margin-left: 53px;
+ 
+  padding-top: 9px;
+  margin-top: 80px;
+  text-align: center;
+  color: #A3A3A3;
+  text-align: justify;
+  letter-spacing: 1px;
+  text-decoration: none;
+  */
