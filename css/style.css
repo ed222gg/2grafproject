@@ -46,15 +46,15 @@ header{}
 	   width: 620px;
 }
 #topLayout {
-  height: 30px;
-  float: left;
-  width: 705px;
-  border: 1px solid;
+
+
+
+  
 }
 #bottomLayout{    
   float: left;
   width: 705px;
-  border: 1px solid;
+
 }
 #bottomLeft {
   float: left;
@@ -92,7 +92,7 @@ user agent stylesheetdiv {
   width: 250px;
   padding: 25px;
   border: 1px solid;
-  margin: 25px;
+
                   
 	width: 196px;;
 	display: block;
@@ -112,7 +112,7 @@ user agent stylesheetdiv {
 	margin-bottom: 20px;
 	
 		background-color: #cc3747;
-	color: #ffdada;
+	color: #D28C8C;
 	-webkit-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
 	-moz-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
 	-ie-box-shadow: 0px 0px 0px 1px #8d1b27 inset, 0px 0px 0px 2px #dd4356 inset, 0px 4px 0px 0px #8d1b27, 0px 5px 0px 0px #65141c, 0px 8px 0px 0px rgba(0,0,0,.15);
@@ -155,9 +155,10 @@ user agent stylesheetdiv {
 }
 .rightPicture{
 	float: right;
-  max-width: 192px;
-height:227px;
-border: 3px solid #FFFFFF;
+  width: 192px;
+  height: 227px;
+  border: 3px solid #FFFFFF;
+
 }
 #tree{
  padding-right: 26px;
