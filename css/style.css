@@ -695,3 +695,10 @@ input[type="radio"]:checked + label span {
     background:url("../pics/check_radio_sheet1.png") -19px top no-repeat;
       background-position: -57px -0;
 }
+
+#eifel{height:50px;
+    width:30px;
+}
+
+#taj{height:50px;
+    width:30px;}
