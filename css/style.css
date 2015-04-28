@@ -686,12 +686,12 @@ input[type="radio"] + label span {
     height:19px;
     margin:-1px 4px 0 0;
     vertical-align:middle;
-    background:url("../pics/check_radio_sheet.png") left top no-repeat;
+    background:url("../pics/check_radio_sheet1.png") left top no-repeat;
     cursor:pointer;
          background-position: -38px -0;
 }
 
 input[type="radio"]:checked + label span {
-    background:url("../pics/check_radio_sheet.png") -19px top no-repeat;
+    background:url("../pics/check_radio_sheet1.png") -19px top no-repeat;
       background-position: -57px -0;
 }
