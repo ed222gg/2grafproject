@@ -47,19 +47,20 @@ header{}
 	  
 }
 #topLayout {
-
-margin-left: -6px;
+  margin-left: 8px;
+  font-size: 26px;
 
 
   
 }
 #bottomLayout{    
-   
-  float: left;
+float: left;
   width: 705px;
-    float: left;
-  width: 701px;
-  margin-top: 40px;
+  float: left;
+  width: 457px;
+  margin-top: 87px;
+  padding-right: -20px;
+  margin-left: -10px;
 
 
 }
@@ -198,6 +199,8 @@ padding-right: 26px;
   text-decoration: none;
 
 }
+
+
   
  ul{ 
 
@@ -258,7 +261,8 @@ body {
 	padding: 0;
 }
 .dark-header {
-  font-size: 31px;
+    font-size: 26px;
+
   color: #303030;
   text-shadow: rgba(255,255,255,0.85) 1px 1px 0px;
   line-height: 0em;
@@ -627,26 +631,28 @@ margin-left: 14px;
     color: #fafafa;
 }
 
- #trajan {
-
+  #trajan {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
- }
 
-header #opacheader{
+}
+
+
+
+/*header #opacheader{
   width: 603px;
   height: 129px;
-  /* background-color: red; */
+
   position: absolute;
-  /* z-index: 1; */
+
   margin: auto;
   padding-right: 0px;
   margin-left: 78px;
-  /* opacity: 0.1; */
+ 
   margin-top: 43px;
     
 }
-
+*/
 
 #opacintro
 
@@ -719,92 +725,83 @@ input[type="radio"]:checked + label span {
     width:30px;}
     
     #centertext{
-            text-align: center;
-    position: absolute;
-    /* z-index: 1; */
-    
-    padding-top: 22px;
-    padding-left: 298px;
-    /* padding-right: 32px; */
-    /* margin-right: -19px; */
-    /* margin-right: 72px; */
-    
-    text-align: center;
-      text-align: center;
+  padding-top: 6px;
+  padding-left: 140px;
+  text-align: center;
   position: absolute;
-  /* z-index: 1; */
+
     }
     
     #countdown
-    { background:url("../pics/tomcirkel.png") left top no-repeat;
+    {   background: url("../pics/tomcirkel.png") left top no-repeat;
   height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
         #countdown6
     { background:url("../pics/tomcirkel6.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
     
             #countdown10
     { background:url("../pics/tomcirkel101.png") left top no-repeat;
-  height: 172px;
+   height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
                 #green4
     { background:url("../pics/green4.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
                   #red4
     { background:url("../pics/red4.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
                       #red10
     { background:url("../pics/red10.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
     
                           #green10
     { background:url("../pics/green10.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
     
@@ -813,70 +810,92 @@ input[type="radio"]:checked + label span {
   height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
                               #green6
     { background:url("../pics/green6.png") left top no-repeat;
-  height: 172px;
+ height: 172px;
   width: 197px;
   position: absolute;
-  background-size: 153px 136px;
-  margin-left: 274px;
-  margin-top: 112px;
+  background-size: 97px 90px;
+  margin-left: 545px;
+  margin-top: 175px;
     }
     
     #points16
     {
-        background:url("../pics/16points.png") left top no-repeat;
-         height: 172px;
-height: 172px;
-  height: 170px;
-  width: 197px;
+        background: url("../pics/16points.png") left top no-repeat;
+  height: 187px;
+  width: 305px;
   position: absolute;
-  background-size: 199px 22px;
-  margin-left: 251px;
-  margin-top: 271px;
-  padding-top: 82px;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 117px;
+  padding-top: 50px;
+    }
+    
+    
+    
+        #points322
+    {
+    background: url("../pics/points4.png") left top no-repeat;
+  height: 170px;
+  width: 305px;
+  position: absolute;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 317px;
+  padding-top: 90px;
     }
     
        #points32
     {
         background:url("../pics/32points.png") left top no-repeat;
-         height: 172px;
-height: 172px;
-  height: 170px;
-  width: 197px;
+  height: 187px;
+  width: 305px;
   position: absolute;
-  background-size: 199px 22px;
-  margin-left: 251px;
-  margin-top: 271px;
-  padding-top: 82px;
-
-
-
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 117px;
+  padding-top: 50px;
     }
+
+
+
+    
     
            #points0
     {
         background:url("../pics/0points.png") left top no-repeat;
-         height: 172px;
-height: 172px;
   height: 170px;
-  width: 197px;
+  width: 305px;
   position: absolute;
-  background-size: 199px 22px;
-  margin-left: 251px;
-  margin-top: 271px;
-  padding-top: 82px;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 317px;
+  padding-top: 90px;
     }
+    
+               #points0up
+    {
+        background:url("../pics/0points.png") left top no-repeat;
+  height: 187px;
+  width: 305px;
+  position: absolute;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 117px;
+  padding-top: 50px;
+    }
+    
+    
     
                #points64
     {
         background:url("../pics/points64.png") left top no-repeat;
-         height: 172px;
-height: 172px;
+  
   height: 170px;
   width: 197px;
   position: absolute;
@@ -890,14 +909,13 @@ height: 172px;
     {
      background:url("../pics/points2.png") left top no-repeat;
          height: 172px;
-height: 172px;
-  height: 170px;
-  width: 197px;
+ height: 170px;
+  width: 307px;
   position: absolute;
-  background-size: 199px 22px;
-  margin-left: 251px;
-  margin-top: 271px;
-  padding-top: 82px;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 317px;
+  padding-top: 90px;
     }
     
     
@@ -920,17 +938,96 @@ height: 172px;
     {
      background:url("../pics/points4.png") left top no-repeat;
          height: 172px;
-height: 172px;
-  height: 170px;
-  width: 197px;
+ height: 170px;
+  width: 307px;
   position: absolute;
-  background-size: 199px 22px;
-  margin-left: 251px;
-  margin-top: 271px;
-  padding-top: 82px;
+  background-size: 219px 28px;
+  margin-left: 494px;
+  margin-top: 317px;
+  padding-top: 90px;
     }
     
-    
+      #opponent{   color: #e65440;
+  text-shadow: 0px 0px 1px Gray;
+  text-align: justify;
+  margin-top: 286px;
+  position: absolute;
+  margin-left: 383px;
+  size: 43px;
+  /* font-size: 26px; */
+  width: 307px;
+  text-align: cen;
+  text-align: center;
+  text-shadow: black;
+  font-size: 26px;
+        
+  }
+  
+       #opponent1{    color: #e65440;
+  text-shadow: 0px 0px 1px Gray;
+  /* text-align: justify; */
+  margin-top: 88px;
+  position: absolute;
+  margin-left: 374px;
+  size: 40px;
+  /* font-size: 26px; */
+  width: 271px;
+  text-align: center;
+  text-shadow: black;
+  font-size: 25px;
+  }
+  
+  #opponent11{    
+text-shadow: 0px 0px 1px Gray;
+  /* text-align: justify; */
+  margin-top: 98px;
+  position: absolute;
+  margin-left: 391px;
+  size: 40px;
+  /* font-size: 26px; */
+  width: 375px;
+  text-align: center;
+  text-shadow: black;
+  font-size: 13px;
+}
+  
+  
+  #opponent22{  
+text-shadow: 0px 0px 1px Gray;
+  /* text-align: justify; */
+  margin-top: 297px;
+  position: absolute;
+  margin-left: 443px;
+  size: 40px;
+  /* font-size: 26px; */
+  width: 375px;
+  text-align: center;
+  text-shadow: black;
+  font-size: 13px;}
+  
+#square{  background-color: 223,22,22,22;
+  opacity: 40px;
+  background-color: rgba(226, 226, 226, 1);
+  height: 376px;
+  width: 260px;
+  position: absolute;
+  /* z-index: 0; */
+  margin: auto;
+  padding-right: -4px;
+  margin-left: 475px;
+  /* opacity: 0.1; */
+  margin-top: 2px;
+  /* padding-right: 421px; */
+  /* margin-right: 400px; */
+  margin-right: -440px;
+  
+}
+
+#rond{  position: absolute;
+  padding-left: 494px;
+}
+
+   
       #soundoff
       {position: absolute;
   height: 19px;
